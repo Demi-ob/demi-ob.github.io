@@ -1,0 +1,17 @@
+<head>
+    <title>My A-Frame Scene</title>
+    <script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script> 
+    <script src="https://unpkg.com/aframe-text-component@^0.4.1/dist/aframe-text-component.min.js"></script> 
+  </head>
+   
+  <body>
+    <a-scene>
+      <a-assets>
+        <!-- <a-asset-item id="optimerBoldFont" src="https://rawgit.com/mrdoob/three.js/dev/examples/fonts/optimer_bold.typeface.json"></a-asset-item> -->
+        <a-asset-item id="optimerBoldFont" src="fonts/optimer_bold.typeface.json"></a-asset-item>
+      </a-assets>
+   
+      <a-entity text="text: What's up"></a-entity>
+      <a-entity text="text: Dog?; font: #optimerBoldFont"></a-entity>
+    </a-scene>
+  </body>
